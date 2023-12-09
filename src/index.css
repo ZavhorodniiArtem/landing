@@ -1,0 +1,18 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+    font-family: 'Cambriaz';
+    src: url('./assets/fonts/cambriab.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Cambriaz', sans-serif;
+}
+
+p {
+    line-height: 1;
+}
